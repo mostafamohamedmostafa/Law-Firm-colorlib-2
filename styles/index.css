@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+/*Start Nav*/
+.navbar {
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: medium;
+}
+
+.navbar .nav-item a {
+  color: white;
+}
+
+.navbar .nav-item   :hover {
+  color: red;
+}
+.navbar .nav-link {
+  margin-right: 5rem;
+}
+
+.navbar .speacil-button .nav-link {
+}
+
+.navbar .active > .nav-link {
+  color: red !important ;
+}
+
+/*End Nav*/
