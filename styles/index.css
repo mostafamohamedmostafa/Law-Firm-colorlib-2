@@ -6,6 +6,7 @@
 
 body {
   direction: rtl;
+  font-family: "Cairo", sans-serif;
 }
 
 /*Start Nav*/
@@ -21,7 +22,7 @@ body {
   color: white;
 }
 
-.navbar .nav-item   :hover {
+.navbar .nav-item :hover {
   color: red;
 }
 .navbar .nav-link {
@@ -35,4 +36,35 @@ body {
   color: red !important ;
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar .nav-link {
+    text-align: right;
+    margin: 0;
+  }
+  .navbar .navbar-toggler {
+    background-color:lightgray;
+  }
+
+
+}
+
 /*End Nav*/
+
+/*<!--Start intro Section-->*/
+
+.intro-section .card-img-overlay {
+  margin-top: 10%;
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-section .card-img-overlay h2 {
+    font-size: medium;
+  }
+
+  .intro-section .card-img-overlay h4 {
+    font-size: small;
+  }
+}
+
+/*<!--End intro Section-->*/
