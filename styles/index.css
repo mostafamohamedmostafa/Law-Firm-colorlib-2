@@ -141,5 +141,20 @@ body {
   left: 40%;
   height: 50vh;
 }
+.about-section .intro-static {
+  text-align: center;
+}
 
+.about-section .intro-static span{
+  color: red;
+}
+
+.about-section  .intro-static  .intro-static-1{
+  margin-left: 5%;
+  background-color: white;
+}
+.about-section  .intro-static  .intro-static-2{
+  margin-left: 5%;
+  background-color: white;
+}
 /*<!--End  About Section-->*/
