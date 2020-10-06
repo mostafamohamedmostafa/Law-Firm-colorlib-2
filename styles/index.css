@@ -324,3 +324,39 @@ body {
 
 }
 /*<!-- End Team Section -->*/
+
+
+/*<!-- Start Call TO Action Section -->*/
+
+.call-to-action {
+  background-color:#da0000;
+  height: 25vh;
+  margin-top: 3%;
+  color: white;
+}
+
+.call-to-action .call-to-action-content h3 , button{
+  margin-top:10%;
+   
+}
+
+.call-to-action .call-to-action-content button{
+  margin-top:10%;
+  background-color: white;
+  width: 40%;
+  color: #da0000;
+   
+}
+
+@media (max-width: 768px) {
+  .call-to-action .call-to-action-content h3 , button{
+    margin-top:10%;
+     
+  }
+  
+  .call-to-action .call-to-action-content button{
+     
+  }
+} 
+
+/*<!-- End Call TO Action Section -->*/
