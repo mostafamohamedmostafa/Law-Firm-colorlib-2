@@ -90,3 +90,18 @@ body {
 }
 
 /*<!--End intro Section-->*/
+
+/*<!--Start Law Practice Section-->*/
+
+.pactice-section{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.pactice-section .card-deck .card {
+  border: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+/*<!--End Law Practice Section-->*/
