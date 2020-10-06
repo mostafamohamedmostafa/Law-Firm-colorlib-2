@@ -109,8 +109,37 @@ body {
   background-color: white;
 }
 
-.pactice-section h5{
+.pactice-section h5 {
   margin-top: 1%;
 }
 
 /*<!--End Law Practice Section-->*/
+
+/*<!--Start  About Section-->*/
+.about-section {
+  background-color: #f5f5f5;
+}
+.about-section .intro-sytle {
+  text-align: right;
+}
+
+.about-section .intro-sytle p {
+  font-size: large;
+}
+
+.about-section .intro-sytle li {
+  font-size: large;
+}
+
+.about-section .intro-img-stlye img {
+  height: 60vh;
+}
+
+.about-section .intro-img-stlye .intro-img {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  height: 50vh;
+}
+
+/*<!--End  About Section-->*/
