@@ -360,3 +360,48 @@ body {
 } 
 
 /*<!-- End Call TO Action Section -->*/
+
+
+
+/*<!-- Start Footer Section -->*/
+.site-footer {
+  background-color:#010b1d;
+
+  text-align: right;
+}
+
+.site-footer img {
+height: 64px;
+
+} 
+.site-footer a {
+  text-decoration: none;
+  color :white;
+
+}
+
+.site-footer p {
+  color: white;
+}
+
+
+.footer-services {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+
+  .footer-section li p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
+  .footer-section li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
+}
+
+
+/*<!-- End Footer Section -->*/
