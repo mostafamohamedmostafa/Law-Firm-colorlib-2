@@ -181,6 +181,7 @@ body {
 }
 .about-section .intro-static {
   text-align: center;
+
 }
 
 .about-section .intro-static span {
@@ -191,11 +192,15 @@ body {
   margin-left: 5%;
   background-color: white;
   box-shadow: lightgray 3px 3px 3px 3px;
+  border-radius: 25%;
+
 }
 .about-section .intro-static .intro-static-2 {
   margin-left: 5%;
   background-color: white;
   box-shadow: lightgray 3px 3px 3px 3px;
+  border-radius: 25%;
+
 }
 
 @media (max-width: 768px) {
@@ -215,11 +220,11 @@ body {
     margin-bottom: 2%;
   }
   .about-section .intro-img-stlye img {
-    height: 256px !important;
+    height: 300px !important;
   }
 
   .about-section .intro-img-stlye .intro-img {
-    height: 75% !important;
+    height: 256px !important;
   }
 }
 
