@@ -87,12 +87,10 @@ body {
 
 /*<!--End intro Section-->*/
 
-
 /*<!--Start Law Practice Section-->*/
 
-
 @media (max-width: 768px) {
-  .pactice-section h2{
+  .pactice-section h2 {
     font-size: larger;
   }
 }
@@ -126,19 +124,19 @@ body {
 
 @media (max-width: 768px) {
   .about-section h1 {
-font-size: larger;  
-}
+    font-size: larger;
+  }
 
-.about-section p {
-  font-size: medium;  
+  .about-section p {
+    font-size: medium;
   }
 
   .about-section .intro-sytle li {
     font-size: medium;
   }
   .about-section .intro-static {
-margin-bottom: 2%;  }
-  
+    margin-bottom: 2%;
+  }
 }
 .about-section {
   background-color: #f5f5f5;
@@ -182,7 +180,6 @@ margin-bottom: 2%;  }
   margin-left: 5%;
   background-color: white;
   box-shadow: lightgray 3px 3px 3px 3px;
-
 }
 /*<!--End  About Section-->*/
 
@@ -263,8 +260,14 @@ margin-bottom: 2%;  }
   }
 
   .cases-section h2 {
-   font-size: larger;
-  } 
+    font-size: larger;
+  }
+
+  .cases-section .card {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none;
+  }
 }
 
 /*<!-- End Cases Section -->*/
@@ -300,13 +303,11 @@ margin-bottom: 2%;  }
 }
 
 @media (max-width: 768px) {
-
-  .testimonails-section{
+  .testimonails-section {
     height: 35vh;
   }
 
   .testimonails-section .carousel-inner .card {
-
     height: 30vh;
   }
 
@@ -326,119 +327,96 @@ margin-bottom: 2%;  }
 
 /* End testimonails-section*/
 
-
 /*<!-- Start Team Section -->*/
 
-.team-section{
+.team-section {
   text-align: right;
 }
 
 .team-section .card {
-   border: none;
+  border: none;
 }
 
-.team-section .card-body p{
- 
-
+.team-section .card-body p {
 }
-
 
 @media (max-width: 768px) {
-  .team-section  h3{
-
- font-size: medium;
- font-weight: bold;
-  }
-
-  .team-section  h1{
-
+  .team-section h3 {
     font-size: medium;
-     }
+    font-weight: bold;
+  }
 
-  
-  .team-section .card  img{
-    height:80%;
+  .team-section h1 {
+    font-size: medium;
+  }
+
+  .team-section .card img {
+    height: 80%;
     width: auto;
-    
   }
-
-
-
-  }
-
-
 }
-/*<!-- End Team Section -->*/
 
+/*<!-- End Team Section -->*/
 
 /*<!-- Start Call TO Action Section -->*/
 
 .call-to-action {
-  background-color:lightgray;
+  background-color: lightgray;
   height: 25vh;
   margin-top: 3%;
   color: white;
   margin-bottom: 1%;
 }
 
-.call-to-action .call-to-action-content h3 , button{
-  margin-top:10%;
-   
+.call-to-action .call-to-action-content h3,
+button {
+  margin-top: 10%;
 }
 
-.call-to-action .call-to-action-content button{
-  margin-top:10%;
+.call-to-action .call-to-action-content button {
+  margin-top: 10%;
   background-color: white;
   width: 40%;
   color: #da0000;
-  box-shadow:black 1px 1px 1px 1px;
-
-   
+  box-shadow: black 1px 1px 1px 1px;
 }
 
 @media (max-width: 768px) {
-  .call-to-action .call-to-action-content h3 , button{
-    margin-top:10%;
-     
+  .call-to-action .call-to-action-content h3,
+  button {
+    margin-top: 10%;
   }
-  
-  .call-to-action .call-to-action-content button{
-     
+
+  .call-to-action .call-to-action-content button {
   }
-} 
+}
 
 /*<!-- End Call TO Action Section -->*/
 
-
-
 /*<!-- Start Footer Section -->*/
 .site-footer {
-  background-color:#010b1d;
+  background-color: #010b1d;
 
   text-align: right;
 }
 
 .site-footer img {
-height: 64px;
-
-} 
+  height: 64px;
+}
 .site-footer a {
   text-decoration: none;
-  color :white;
-
+  color: white;
 }
 
 .site-footer p {
   color: white;
 }
 
-
 .footer-services {
   margin-top: auto;
 }
 
 @media (max-width: 768px) {
-
   .footer-section li p {
     text-decoration: none;
     font-weight: bold;
@@ -450,6 +428,5 @@ height: 64px;
     font-size: small;
   }
 }
-
 
 /*<!-- End Footer Section -->*/
