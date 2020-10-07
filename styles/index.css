@@ -295,6 +295,10 @@ body {
   margin-bottom: 3%;
   border: none;
 }
+.cases-section .card h5{
+  font-weight: bold;
+}
+
 
 @media (max-width: 768px) {
   .cases-section {
@@ -303,7 +307,7 @@ body {
 
   .cases-section h2 {
     font-size: larger;
-  }
+   }
 
   .cases-section .card {
     margin-top: 1%;
@@ -376,11 +380,16 @@ body {
   text-align: right;
 }
 
+
+.team-section h3{
+  font-weight: bold;
+}
 .team-section .card {
   border: none;
 }
 
-.team-section .card-body p {
+.team-section .card-body h5 {
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -417,6 +426,7 @@ body {
 .call-to-action .call-to-action-content h3,
 button {
   margin-top: 10%;
+  font-weight: bold;
 }
 
 .call-to-action .call-to-action-content button {
