@@ -87,8 +87,15 @@ body {
 
 /*<!--End intro Section-->*/
 
+
 /*<!--Start Law Practice Section-->*/
 
+
+@media (max-width: 768px) {
+  .pactice-section h2{
+    font-size: larger;
+  }
+}
 .pactice-section {
   text-align: center;
   margin-top: 3%;
@@ -116,6 +123,23 @@ body {
 /*<!--End Law Practice Section-->*/
 
 /*<!--Start  About Section-->*/
+
+@media (max-width: 768px) {
+  .about-section h1 {
+font-size: larger;  
+}
+
+.about-section p {
+  font-size: medium;  
+  }
+
+  .about-section .intro-sytle li {
+    font-size: medium;
+  }
+  .about-section .intro-static {
+margin-bottom: 2%;  }
+  
+}
 .about-section {
   background-color: #f5f5f5;
 }
@@ -235,8 +259,12 @@ body {
 
 @media (max-width: 768px) {
   .cases-section {
-    margin-top: 22%;
+    margin-top: 2%;
   }
+
+  .cases-section h2 {
+   font-size: larger;
+  } 
 }
 
 /*<!-- End Cases Section -->*/
@@ -272,6 +300,16 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .testimonails-section{
+    height: 35vh;
+  }
+
+  .testimonails-section .carousel-inner .card {
+
+    height: 30vh;
+  }
+
   .testimonails-section .carousel-inner img {
     height: 96px;
     width: 96px;
@@ -319,10 +357,14 @@ body {
 
   
   .team-section .card  img{
-    height:auto;
+    height:80%;
     width: auto;
+    
   }
 
+
+
+  }
 
 
 }
