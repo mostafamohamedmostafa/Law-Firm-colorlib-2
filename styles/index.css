@@ -336,6 +336,7 @@ body {
   height: 25vh;
   margin-top: 3%;
   color: white;
+  margin-bottom: 1%;
 }
 
 .call-to-action .call-to-action-content h3 , button{
@@ -348,6 +349,8 @@ body {
   background-color: white;
   width: 40%;
   color: #da0000;
+  box-shadow:black 1px 1px 1px 1px;
+
    
 }
 
