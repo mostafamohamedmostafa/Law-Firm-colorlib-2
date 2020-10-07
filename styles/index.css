@@ -152,10 +152,13 @@ body {
 .about-section .intro-static .intro-static-1 {
   margin-left: 5%;
   background-color: white;
+  box-shadow: lightgray 3px 3px 3px 3px;
 }
 .about-section .intro-static .intro-static-2 {
   margin-left: 5%;
   background-color: white;
+  box-shadow: lightgray 3px 3px 3px 3px;
+
 }
 /*<!--End  About Section-->*/
 
@@ -185,18 +188,18 @@ body {
 }
 
 .contact-us-form form input {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-us-form form select {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-us-form form button {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   width: 100%;
 }
 @media (max-width: 768px) {
@@ -329,7 +332,7 @@ body {
 /*<!-- Start Call TO Action Section -->*/
 
 .call-to-action {
-  background-color:#da0000;
+  background-color:lightgray;
   height: 25vh;
   margin-top: 3%;
   color: white;
