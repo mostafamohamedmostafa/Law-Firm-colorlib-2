@@ -61,6 +61,13 @@ body {
   height: 100px;
 }
 
+
+.intro-section button a {
+color: white;
+}
+
+
+
 @media only screen and (max-width: 768px) {
   .intro-section img {
     height: 30vh;
@@ -93,6 +100,29 @@ body {
   .pactice-section h2 {
     font-size: larger;
   }
+  .pactice-section {
+     margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .pactice-section .card-deck .card {
+    margin-top: 0%;
+    margin-bottom: 0%;
+ 
+  }
+
+  .pactice-section .card-deck .card h5 {
+font-size: large;
+font-weight: bold;
+ 
+margin-top: 0%;
+
+  }
+
+  .pactice-section .card-deck .card p {
+    font-size: small;
+     
+      }
 }
 .pactice-section {
   text-align: center;
@@ -124,20 +154,31 @@ body {
 
 @media (max-width: 768px) {
   .about-section h1 {
-    font-size: larger;
+    font-size: large;
   }
 
-  .about-section p {
-    font-size: medium;
+  .about-section .intro-sytle p {
+    font-size: small;
   }
 
   .about-section .intro-sytle li {
-    font-size: medium;
+    font-size: smaller;
   }
   .about-section .intro-static {
     margin-bottom: 2%;
   }
+  .about-section .intro-img-stlye img {
+    height: 256px !important;  }
+
+    .about-section .intro-img-stlye .intro-img {
+
+      height: 128px;
+    }
 }
+
+
+
+
 .about-section {
   background-color: #f5f5f5;
 }
@@ -350,6 +391,11 @@ body {
     font-size: medium;
   }
 
+  .team-section .card-deck .card {
+    margin-top: 1%;
+    box-shadow: gray 1px 1px 1px 1px;
+  }
+
   .team-section .card img {
     height: 80%;
     width: auto;
@@ -361,7 +407,7 @@ body {
 /*<!-- Start Call TO Action Section -->*/
 
 .call-to-action {
-  background-color: lightgray;
+  background-color: gray;
   height: 25vh;
   margin-top: 3%;
   color: white;
