@@ -93,31 +93,6 @@ body {
 
 /*<!--Start Law Practice Section-->*/
 
-@media (max-width: 768px) {
-  .pactice-section h2 {
-    font-size: larger;
-  }
-  .pactice-section {
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
-
-  .pactice-section .card-deck .card {
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-
-  .pactice-section .card-deck .card h5 {
-    font-size: large;
-    font-weight: bold;
-
-    margin-top: 0%;
-  }
-
-  .pactice-section .card-deck .card p {
-    font-size: small;
-  }
-}
 .pactice-section {
   text-align: center;
   margin-top: 3%;
@@ -142,34 +117,42 @@ body {
   margin-top: 1%;
 }
 
+@media (max-width: 768px) {
+  .pactice-section h2 {
+    font-size: larger;
+  }
+  .pactice-section {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .pactice-section .card-deck .card {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .pactice-section .card-deck .card h5 {
+    font-size: large;
+    font-weight: bold;
+
+    margin-top: 0%;
+  }
+
+  .pactice-section .card-deck .card p {
+    font-size: small;
+  }
+
+  .pactice-section i {
+    position: absolute;
+    top: 55%;
+    left: auto;
+    font-size: 50px;
+    background-color: white;
+  }
+}
 /*<!--End Law Practice Section-->*/
 
 /*<!--Start  About Section-->*/
-
-@media (max-width: 768px) {
-  .about-section h1 {
-    font-size: large;
-    font-weight: bold;
-  }
-
-  .about-section .intro-sytle p {
-    font-size: smaller;
-  }
-
-  .about-section .intro-sytle li {
-    font-size: smaller;
-  }
-  .about-section .intro-static {
-    margin-bottom: 2%;
-  }
-  .about-section .intro-img-stlye img {
-    height: 256px !important;
-  }
-
-  .about-section .intro-img-stlye .intro-img {
-    height: 75% !important;
-  }
-}
 
 .about-section {
   background-color: #f5f5f5;
@@ -214,6 +197,32 @@ body {
   background-color: white;
   box-shadow: lightgray 3px 3px 3px 3px;
 }
+
+@media (max-width: 768px) {
+  .about-section h1 {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .about-section .intro-sytle p {
+    font-size: small;
+  }
+
+  .about-section .intro-sytle li {
+    font-size: small;
+  }
+  .about-section .intro-static {
+    margin-bottom: 2%;
+  }
+  .about-section .intro-img-stlye img {
+    height: 256px !important;
+  }
+
+  .about-section .intro-img-stlye .intro-img {
+    height: 75% !important;
+  }
+}
+
 /*<!--End  About Section-->*/
 
 /*<!-- ٍStart Contact Section -->*/
@@ -390,7 +399,7 @@ body {
   }
 
   .team-section .card img {
-   }
+  }
 }
 
 /*<!-- End Team Section -->*/
